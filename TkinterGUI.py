@@ -30,3 +30,6 @@ mata_pelajaran = [
     "Matematika", "Bahasa Indonesia", "Bahasa Inggris", "Fisika", "Kimia",
     "Biologi", "Ekonomi", "Sosiologi", "Geografi", "Sejarah"
 ]
+
+# 9. Menginisialisasi list kosong untuk menampung widget entry
+entries = []
