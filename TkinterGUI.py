@@ -6,3 +6,6 @@ root = tk.Tk()
 
 # 3. Mengatur judul jendela aplikasi
 root.title("Aplikasi Prediksi Prodi Pilihan")
+
+# 4. Mengatur dimensi ukuran window
+root.geometry("400x520")
