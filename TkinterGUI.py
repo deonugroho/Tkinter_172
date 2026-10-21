@@ -24,3 +24,9 @@ label_judul.pack(pady=10)
 # 7. Membuat kontainer (Frame) untuk mengelompokkan form input
 frame_inputs = tk.Frame(root)
 frame_inputs.pack(pady=5)
+
+# 8. Mendefinisikan list daftar 10 mata pelajaran
+mata_pelajaran = [
+    "Matematika", "Bahasa Indonesia", "Bahasa Inggris", "Fisika", "Kimia",
+    "Biologi", "Ekonomi", "Sosiologi", "Geografi", "Sejarah"
+]
