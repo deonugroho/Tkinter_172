@@ -47,3 +47,16 @@ for i, mapel in enumerate(mata_pelajaran):
 # 12. Mendefinisikan fungsi logika untuk menampilkan hasil prediksi
 def prediksi_prodi():
     label_hasil.config(text="Hasil Prediksi: Teknologi Informasi")
+
+# 13. Membuat tombol (button) untuk mengeksekusi prediksi
+btn_prediksi = tk.Button(
+    root, 
+    text="Hasil Prediksi", 
+    command=prediksi_prodi,
+    bg="#4CAF50", 
+    fg="white", 
+    font=("Arial", 10, "bold"),
+    padx=10,
+    pady=5
+)
+btn_prediksi.pack(pady=15)
