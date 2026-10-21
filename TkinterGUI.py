@@ -69,3 +69,6 @@ label_hasil = tk.Label(
     fg="#1E88E5"
 )
 label_hasil.pack(pady=5)
+
+# 15. Menjalankan event loop utama aplikasi
+root.mainloop()
