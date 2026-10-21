@@ -60,3 +60,12 @@ btn_prediksi = tk.Button(
     pady=5
 )
 btn_prediksi.pack(pady=15)
+
+# 14. Membuat label luaran untuk tempat menampilkan teks hasil prediksi
+label_hasil = tk.Label(
+    root, 
+    text="", 
+    font=("Arial", 12, "bold"), 
+    fg="#1E88E5"
+)
+label_hasil.pack(pady=5)
