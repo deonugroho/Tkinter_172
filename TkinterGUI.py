@@ -38,3 +38,8 @@ entries = []
 for i, mapel in enumerate(mata_pelajaran):
     lbl = tk.Label(frame_inputs, text=f"Nilai {mapel}:", width=20, anchor="w")
     lbl.grid(row=i, column=0, padx=5, pady=3, sticky="w")
+    
+    # 11. Membuat field entry input nilai, memasangnya pada grid (kolom 1), dan menyimpannya ke list
+    entry = tk.Entry(frame_inputs, width=15)
+    entry.grid(row=i, column=1, padx=5, pady=3)
+    entries.append(entry)
