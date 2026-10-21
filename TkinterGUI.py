@@ -33,3 +33,8 @@ mata_pelajaran = [
 
 # 9. Menginisialisasi list kosong untuk menampung widget entry
 entries = []
+
+# 10. Memulai perulangan dan membuat label nama mata pelajaran (kolom 0)
+for i, mapel in enumerate(mata_pelajaran):
+    lbl = tk.Label(frame_inputs, text=f"Nilai {mapel}:", width=20, anchor="w")
+    lbl.grid(row=i, column=0, padx=5, pady=3, sticky="w")
