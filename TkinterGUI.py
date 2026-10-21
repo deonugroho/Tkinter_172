@@ -12,3 +12,11 @@ root.geometry("400x520")
 
 # 5. Mengunci ukuran window agar tidak bisa di-resize
 root.resizable(False, False)
+
+# 6. Menambahkan label judul utama di bagian atas
+label_judul = tk.Label(
+    root, 
+    text="Aplikasi Prediksi Prodi Pilihan", 
+    font=("Arial", 14, "bold")
+)
+label_judul.pack(pady=10)
