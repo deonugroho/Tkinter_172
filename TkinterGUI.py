@@ -43,3 +43,7 @@ for i, mapel in enumerate(mata_pelajaran):
     entry = tk.Entry(frame_inputs, width=15)
     entry.grid(row=i, column=1, padx=5, pady=3)
     entries.append(entry)
+
+# 12. Mendefinisikan fungsi logika untuk menampilkan hasil prediksi
+def prediksi_prodi():
+    label_hasil.config(text="Hasil Prediksi: Teknologi Informasi")
