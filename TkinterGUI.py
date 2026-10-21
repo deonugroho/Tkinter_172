@@ -20,3 +20,7 @@ label_judul = tk.Label(
     font=("Arial", 14, "bold")
 )
 label_judul.pack(pady=10)
+
+# 7. Membuat kontainer (Frame) untuk mengelompokkan form input
+frame_inputs = tk.Frame(root)
+frame_inputs.pack(pady=5)
